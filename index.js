@@ -10,12 +10,12 @@ btn.onclick = function(){
     {
         icon.classList.add('fa-moon');
         icon.classList.remove('fa-sun');
-        image.src = './images/white_bg.jpg'
+        image.src = './images/white.jpg'
     }
     else{
         icon.classList.add('fa-sun');
         icon.classList.remove('fa-moon');
-        image.src = './images/black_bg.jpg';
+        image.src = './images/black.jpg';
     }
 };
 
