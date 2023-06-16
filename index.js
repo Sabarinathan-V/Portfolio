@@ -20,7 +20,7 @@ btn.onclick = function(){
 };
 
 function openPdf(){
-    const fileUrl = './pdf/cv.pdf';
+    const fileUrl = './pdf/SabarinathanResume.pdf';
     const win = window.open(fileUrl, '_black');
     win.focus();
 }
